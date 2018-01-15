@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/zoom_in_photo_layout"
+    tools:context="com.longxiang.woniuke.activity.ZoomInPhotoActivity"
+    android:background="#000000"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/zoom_in_imagview"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:scaleType="fitXY"
+        />
+</RelativeLayout>

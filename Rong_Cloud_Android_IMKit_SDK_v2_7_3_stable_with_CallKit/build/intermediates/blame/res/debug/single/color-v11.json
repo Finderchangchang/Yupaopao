@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Users\\AndroidStudioProjects\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Users\\AndroidStudioProjects\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\Users\\AndroidStudioProjects\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Users\\AndroidStudioProjects\\Yupaopao\\Rong_Cloud_Android_IMKit_SDK_v2_7_3_stable_with_CallKit\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    }
+]

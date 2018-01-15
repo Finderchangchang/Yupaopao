@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.longxiang.woniuke.activity.HelpActivity">
+    <RelativeLayout
+        android:id="@+id/help_rl_title"
+        android:background="#1EBAF3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <ImageView
+            android:id="@+id/help_iv_back"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_back_glay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/help_tv_title_name"
+            android:text="帮助"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/help_rl01"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/help_tv_yue_name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="用户帮助"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ImageView
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <RelativeLayout
+            android:id="@+id/help_rl02"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="官方客服"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ImageView
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <RelativeLayout
+            android:id="@+id/help_rl03"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:text="产品反馈"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ImageView
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <RelativeLayout
+            android:id="@+id/help_rl04"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:text="版本号"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ImageView
+                android:id="@+id/help_iv_version"
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/help_tv_version"
+                android:text="1.1.0"
+                android:textColor="#000"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/help_iv_version"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="200dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="客服电话:"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/help_tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1EBAF3"
+                android:text=""
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="7x24小时在线客服"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="线上留言请咨询蜗牛壳客服"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RegisterActivity">
+
+    <include
+        android:id="@+id/sub_title_register"
+        layout="@layout/item_titleevery"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:text="手机号"
+                    android:textSize="16sp"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:textCursorDrawable="@null"
+                    android:id="@+id/et_phonenum"
+                    android:background="@null"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:gravity="center_vertical"
+                    android:text="验证码"
+                    android:textSize="16sp"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:textCursorDrawable="@null"
+                    android:id="@+id/et_yzword"
+                    android:layout_width="0dp"
+                    android:background="@null"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/seedyzword"
+                    android:background="@drawable/conner_bg"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:textColor="#fff"
+                    android:text="发送验证码"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:textSize="12sp"
+                    android:layout_weight="0.4"
+                    android:layout_height="33dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/regist_password_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:gravity="center_vertical"
+                    android:text="密    码"
+                    android:textSize="16sp"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:textCursorDrawable="@null"
+                    android:id="@+id/et_password"
+                    android:layout_width="0dp"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:layout_weight="2"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal">-->
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent" />-->
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:gravity="center_vertical"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="密码"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="16sp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="60dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="match_parent" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textCursorDrawable="@null"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/et_repassword"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:background="@null"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_weight="2"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:hint="选填"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:inputType="textPassword"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="match_parent" />&ndash;&gt;-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:text="下一步"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/conner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <CheckBox
+            android:id="@+id/cb_register"
+            android:layout_toLeftOf="@+id/tv_tongyi"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:text="同意"/>
+        <TextView
+            android:id="@+id/tv_xieyi_register"
+            android:text="《蜗牛壳用户协议》"
+            android:textSize="13sp"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:textColor="#00B8EE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:orientation="vertical"
+    tools:context=".activity.PurseActivity">
+
+    <include
+        android:id="@+id/sub_title_purse"
+        layout="@layout/item_titleevery"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/purse_rl01"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/iv_yue"
+                android:src="@mipmap/yue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        <TextView
+            android:layout_toRightOf="@+id/iv_yue"
+            android:id="@+id/tv_yue_name"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="账户"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+            <ImageView
+                android:id="@+id/iv_inyue"
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_yue_num"
+                android:text="1.00元"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/iv_inyue"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <RelativeLayout
+            android:id="@+id/purse_rl02"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/iv_jifen"
+                android:src="@mipmap/jifen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_toRightOf="@+id/iv_jifen"
+                android:id="@+id/tv_jifen_name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="积分"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ImageView
+                android:id="@+id/iv_injifen"
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_jifen_num"
+                android:text="0分"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/iv_injifen"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <RelativeLayout
+            android:id="@+id/purse_rl03"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/iv_youhuijuan"
+                android:src="@mipmap/youhuiquan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_toRightOf="@+id/iv_youhuijuan"
+                android:id="@+id/tv_youhuijuan_name"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:text="优惠劵"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <ImageView
+                android:id="@+id/iv_inyouhuijuan"
+                android:src="@mipmap/dayuhao"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/tv_youhuijuan_num"
+                android:text="3张优惠劵"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/iv_inyouhuijuan"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Rl_all"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:background="#1EBAF3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="下单"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout_type_overbooking"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="品类"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_pinlei"
+            android:src="@mipmap/dayuhao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_type_overbooking"
+            android:hint="选择品类"
+            android:textColor="#1EBAF3"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_pinlei"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:textSize="13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:id="@+id/layout_gride_overbooking"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="等级"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_dengji"
+            android:src="@mipmap/dayuhao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_gride_overbooking"
+            android:hint="选择等级"
+            android:textColor="#1EBAF3"
+            android:gravity="right"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_dengji"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="性别"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:id="@+id/rg_overbooking"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb1_overbooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/all_sex"
+                android:textSize="0sp"
+                android:checked="true"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+            <RadioButton
+                android:id="@+id/rb2_overbooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/man_sex"
+                android:textSize="0sp"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+            <RadioButton
+                android:id="@+id/rb3_overbooking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/woman_sex"
+                android:textSize="0sp"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+        </RadioGroup>
+    </RelativeLayout>
+    <TextView
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:id="@+id/layout_time_overbooking"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="时间"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_time"
+            android:src="@mipmap/dayuhao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_time_overbooking"
+            android:hint="选择时间"
+            android:textColor="#1EBAF3"
+            android:gravity="right"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_time"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:id="@+id/layout_count_overbooking"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="数量"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_count"
+            android:src="@mipmap/dayuhao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_count_overbooking"
+            android:hint="选择数量"
+            android:textColor="#1EBAF3"
+            android:gravity="right"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_count"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <RelativeLayout
+        android:id="@+id/layout_yhq_overbooking"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="优惠券"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#555"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_yhq"
+            android:src="@mipmap/dayuhao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_yhq_overbooking"
+            android:hint="选择优惠券"
+            android:textColor="#1EBAF3"
+            android:gravity="right"
+            android:textSize="13sp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_yhq"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:background="#f7f7f7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <!--<Button-->
+    <!--android:text="选择"-->
+    <!--android:onClick="onClick"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/overbooking_btnfabu"
+            android:text="发布订单"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/conner_bg"
+            android:textColor="#fff"
+            android:layout_marginBottom="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/ll_overbooking"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/sub_overbooking"
+                layout="@layout/item_dialog"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

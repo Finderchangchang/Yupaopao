@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:layout_marginTop="3dp"
+           android:background="#ffffff">
+           <TextView
+               android:id="@+id/item_qdsz_tv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="13sp"
+               android:text="LOL"
+               android:textColor="#000"
+               android:layout_centerVertical="true"
+               android:layout_toRightOf="@+id/item_jdsz_iv"
+               android:layout_marginLeft="40dp"/>
+           <Switch
+               android:id="@+id/item_qdsz_switch"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="10dp"
+               android:switchMinWidth="30dp"
+               android:textOff=""
+               android:textOn=""
+               android:thumbTextPadding="10dp"
+               android:thumb="@drawable/thumb"
+               android:track="@drawable/track"
+               />
+       </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efefef"/>
+</LinearLayout>

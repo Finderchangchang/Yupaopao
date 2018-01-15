@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.longxiang.woniuke.activity.SelectGodActivity">
+    <RelativeLayout
+        android:background="#1EBAF3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <!--<ImageView-->
+        <!--android:id="@+id/wait_god_iv_back"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@mipmap/ic_back_glay"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent" />-->
+        <TextView
+            android:id="@+id/select_god_title"
+            android:text="选择大神"
+            android:textSize="16sp"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/select_god_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/lbd"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="#f8f8f8">
+       <com.longxiang.woniuke.utils.TimerCountdownView
+           android:id="@+id/select_god_timeview"
+           android:layout_width="55dp"
+           android:layout_height="55dp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="5dp"/>
+       <TextView android:id="@+id/select_god_timer"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:textColor="#1EBAF3"
+           android:textSize="13sp"
+           android:text="00:00"/>
+
+   </RelativeLayout>
+   <!--<com.longxiang.woniuke.myview.RushBuyCountDownTimerView-->
+       <!--android:id="@+id/select_god_timerview"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:layout_gravity="right"-->
+       <!--&gt;</com.longxiang.woniuke.myview.RushBuyCountDownTimerView>-->
+    <ListView
+        android:id="@+id/select_god_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        ></ListView>
+</LinearLayout>
